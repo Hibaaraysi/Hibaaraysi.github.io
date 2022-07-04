@@ -10,9 +10,9 @@ body{
     margin-right: auto;
     display: block;
 }
-li {
+.nav {
     /* try to make the nav bar spaced*/
-    display: inline;
+    display: inline ;
     padding: 10%;
     font-size: larger;
 }
