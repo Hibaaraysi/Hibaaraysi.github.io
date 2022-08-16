@@ -92,7 +92,7 @@ header{
     color: #222;
 }
   
-.nav input[type=text] {
+.search-bar input[type=text] {
     padding: 10px;
     font-size: 12px;
     width: 85%;
