@@ -1,0 +1,1087 @@
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ADDING STYLE TO HTML FROM HERE. */
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.headcontainer{
+    width: 100%;
+}
+
+header{
+    background-color: #c78c06;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+}
+  
+.nav a {
+    background-color: #222;
+    color: #c78c06;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+  
+.nav a.main {
+    background-color: #c78c06;
+    color: #222;
+}
+  
+.nav input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    width: 85%;
+    border: none;
+}
+
+.search-bar{
+    display: flex;
+    background-color: #222;
+}
+
+.sbutton{
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid #c78c06;
+}
+
+
+.fa-magnifying-glass{
+    color: #c78c06;
+    background: #222;
+    padding: 8px;
+    border: 1px solid #c78c06;
+    font-size: 17px;
+}
+
+.welcome3s img {
+    width: 100%;
+}
+
+.welcome3s {
+    position: relative ;
+}
+
+.welcome-text {
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    background-color: rgba(34, 34, 34, 0.651) ;
+    color: white;
+}
+
+.welcome-text h1{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.welcome-text p{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.welcome-button {
+    background-color: #c78c06;
+    padding: 20px;
+    width: 150px;
+    font-size: 0.9rem;
+}
+
+.welcome-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.welcome-button i{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutus img{
+    width: 100%;
+    padding-bottom: 10px
+}
+
+.aboutus h2{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+}
+
+.aboutus p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.aboutus{
+    background-color: #ffe6ac;
+    padding: 10px  20px 10px 10px;
+}
+
+.services{
+    padding: 10px;
+}
+
+.services h2{
+    font-size: 2.5rem;
+    padding: 10px 5px;
+    font-weight: 700;
+
+}
+
+.digital{
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.digital img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.digital p{
+    padding: 10px;
+    font-size: 12px;
+}
+
+.digital h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.digitalplansbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.digitalplansbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.marketing{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.marketing img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.marketing p{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.marketing h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.marketplansbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 140px;
+    font-size: 16px;
+}
+
+.marketplansbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+
+.videopro{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.videopro img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.videopro h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-block: 10px;
+}
+
+.videopro p{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.videoprobutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.videoprobutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.webdev{
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.webdev img{
+    width: 100%;
+}
+
+.webdev h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.webdev p{
+    padding: 10px;
+    font-size: 12px;
+}
+
+.webdevbutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.webdevbutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.printserv{
+    background-color: #ffe6ac;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.printserv img{
+    width: 100%;
+}
+
+.printserv p{
+    padding:0px 10px 10px 10px;
+    font-size: 12px;
+}
+
+.printserv h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px;
+}
+.printservicebutton {
+    background-color: #222;
+    padding: 30px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.printservicebutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.tmsvision img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tmsvision{
+    position: relative;
+}
+
+.vistxt{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    color: white;
+    padding: 10px;
+}
+
+.vistxt h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.vistxt p{
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.learnmorebutton {
+    background-color: rgba(34, 34, 34, 0.498);
+    padding: 20px;
+    width: 80px;
+    border: 0.5px solid #c78c06;
+    font-size: 12px;
+}
+
+.learnmorebutton a,i{
+    text-decoration: none;
+    color: white;
+}
+
+.ourteam{
+    padding: 10px
+}
+
+.ourteam h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.ourteam{
+    padding-bottom: 10px;
+}
+.doe img{
+    width: 100%;
+}
+
+.doetxt{
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.doetxt h3{ 
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.doetxt h6{
+    font-weight: 600;
+}
+
+.doetxt p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.rite{
+    padding-bottom: 10px;
+}
+
+.rite img{
+    width: 100%;
+}
+
+.ritetxt{
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.ritetxt h3{ 
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.ritetxt h6{
+    font-weight: 600;
+}
+
+.ritetxt p{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.contactussection{
+    padding: 10px;
+    margin: auto;
+}
+
+.contactussection h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px 1px 30px 1px;
+}
+
+hr{
+    color: #c78c06;
+    border: 1px solid #c78c06;
+}
+.contactussection h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.formbox{
+    width: 100%;
+    font-size: 18px;
+}
+
+.formmsg{
+    width: 100%;
+    font-size: 18px;
+    height: 120px;
+}
+
+.sendbutton{
+    background-color: black;
+    color: #c78c06;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.hourofoperation h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table tr th{
+    background-color: #ffe6ac;
+    text-align: center;
+    padding: 15px;
+    border: 0.5px solid black;
+}
+
+table td{
+    padding: 15px;
+    border: 0.5px solid black;
+}
+
+.map{
+    padding: 10px;
+}
+
+.map h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.map iframe{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    color: #c78c06;
+    background-color: #222;
+    padding: 20px 10px 10px 10px;
+}
+
+footer a{
+    color: #c78c06;
+    text-decoration: none;
+}
+
+footer p{
+    color: #c78c06;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 760px) {
+
+    .headcontainer {
+        width: 80%;
+        display: flex;
+    }
+
+    header {
+        background-color: #222;
+        width: 100%;
+        padding: 30px 10%;
+        justify-content: space-between;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        font-weight: 500;
+    }
+
+    .nav ul li {
+        color: #c78c06;
+        display: inline-block;
+        text-decoration: none;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .nav a {
+        padding: 20px;
+    }
+
+    .nav a:hover {
+        background-color: #c78c06;
+        color: #222;
+    }
+
+    .nav a.main {
+        background-color: #c78c06;
+        color: #222;
+    }
+
+    .search-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav input {
+        padding: 10px;
+        font-size: 1.2rem;
+        border: none;
+    }
+
+    .fa-magnifying-glass {
+        color: #c78c06;
+        background-color: #222;
+        padding: 15px;
+        border: none;
+    }
+
+    .welcome3s img {
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    .welcomewrapper {
+        width: 80%;
+        background-color: #222;
+        margin-left: 10rem;
+    }
+
+    .welcome3s {
+        position: relative;
+    }
+
+    .welcome-text {
+        display: block;
+        width: 80%;
+        background-color: rgba(34, 34, 34, 0.651);
+        color: white;
+    }
+
+    .welcome-text h1 {
+        font-size: 6rem;
+        font-weight: 700;
+        padding: 20px;
+    }
+
+    .welcome-container{
+        width: 75%;
+        max-width: 1200px;
+        margin-left: 11rem;
+    }
+    .welcome-text p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 10px;
+    }
+
+    .welcome-button {
+        background-color: #c78c06;
+        padding: 2.5rem;
+        width: 15rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .welcome-button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .welcome-button i {
+        text-decoration: none;
+        color: black;
+    }
+
+    .aboutus {
+        background-color: #ffe6ac;
+        padding: 1.2rem;
+        display: flex;
+    }
+
+    .aboutuswrapper {
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .aboutus img {
+        padding-bottom: 10px;
+        width: 50%;
+    }
+
+    .aboutustxt{
+        width: 50%;
+        margin-left: 1rem ;
+    }
+
+    .aboutustxt h2 {
+        font-size: 5rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .aboutustxt p {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .serv {
+        padding: 10px;
+    }
+
+    .serv h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        padding: 10px 5px;
+    }
+
+    .s-container {
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .service1{
+        display: flex;
+    }
+
+    .service2{
+        display: flex;
+    }
+
+    .serv p {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .serv h3 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .digital img {
+
+        padding-bottom: 20px;
+        height: 65%;
+
+    }
+
+    .digital {
+        background-color: #ffe6ac;
+        display: block;
+        padding-bottom: 10px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .digitalplansbutton {
+        background-color: #222;
+        width: 85%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .digitalplansbutton a,i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .digitalplansbutton {
+        display: block;
+        padding-bottom: 10px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .marketing img {
+        height: 65%;
+        padding-bottom: 20px;
+    }
+
+    .marketing {
+        background-color: #ffe6ac;
+        display: block;
+        padding-bottom: 10px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .marketplansbutton {
+        background-color: #222;
+        width: 85%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .marketplansbutton a,i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .marketplansbutton {
+        display: block;
+        padding-bottom: 10px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .videopro {
+        background-color: #ffe6ac;
+        display: block;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin: 0.5rem;
+    }
+
+    .videopro img {
+        padding-bottom: 20px;
+        height: 45%;
+    }
+
+    .videoprobutton {
+        background-color: #222;
+        width: 75%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .videoprobutton a,i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .webdev {
+        background-color: #ffe6ac;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin: .6rem;
+    }
+
+    .webdev img {
+        height: 45%;
+        padding-bottom: 20px;
+    }
+
+    .webdevbutton {
+        background-color: #222;
+        width: 75%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .webbutton a,
+    i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .printserv {
+        background-color: #ffe6ac;
+        display: block;
+        padding: 10px;
+        margin: .6rem;
+    }
+
+    .printserv img {
+        height: 46%;
+        padding-bottom: 20px;
+    }
+
+    .printservicebutton {
+        background-color: #222;
+        width: 75%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .printservicebutton a,i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .tmsvision img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .visionwrap {
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .tmsvision {
+        position: relative;
+
+    }
+
+    .vistxt {
+        position: absolute;
+        top: 20%;
+        bottom: 10%;
+        padding: 10px 0px 10px 0px;
+        color: white;
+        padding: 10px;
+    }
+
+    .vistxt p{
+        font-size: 1rem;
+    }
+
+    .vistxt h3{
+        font-size: 2.5rem;
+    }
+
+    .learnmorebutton {
+        background-color: rgba(34, 34, 34, 0.498);
+        padding: 30px;
+        width: 7.5rem;
+        border: 0.5px solid #c78c06;
+        font-size: 1.2rem;
+    }
+
+    .learnmorebutton a,i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .ourteam {
+        padding: 10px
+    }
+
+    .teamwrap {
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .doe {
+        display: flex;
+    }
+
+    .doe img {
+        width: 50%;
+    }
+
+    .doetxt {
+        background-color: #ffe6ac;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .doetxt h6 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .doetxt p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .rite {
+        display: flex;
+    }
+
+    .rite img {
+        width: 50%;
+    }
+
+    .ritetxt {
+        background-color: #ffe6ac;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .ritetxt h6 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .ritetxt p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .contactussection {
+        padding: 10px;
+        margin: auto;
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .formbox{
+        width: 100%;
+    }
+
+    .formmsg{
+        width: 100%;
+    }
+
+    hr {
+        color: #c78c06;
+        border: 1px solid #c78c06;
+    }
+
+    .hours h3 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hourwrap{
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .map {
+        width: 80%;
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .map h3 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    footer {
+        color: #c78c06;
+        background-color: #222;
+        padding: 20px 10px 10px 10px;
+    }
+    .foottxt {
+        margin-left: 7rem;
+    }
+
+    .footwrap {
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+    footer a {
+        color: #c78c06;
+        text-decoration: none;
+    }
+
+    footer p {
+        color: #c78c06;
+        padding: 10px;
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+}
