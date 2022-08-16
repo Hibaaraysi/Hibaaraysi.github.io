@@ -618,8 +618,8 @@ footer p{
         justify-content: space-around;
     }
 
-    .nav input {
-        padding: 10px;
+    .search-bar input {
+        padding: 0px 10px;
         font-size: 1.2rem;
         border: none;
     }
